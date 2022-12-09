@@ -29,12 +29,12 @@ importers:
       dep: workspace:*
       react: 18.2.0
       react-dom: 18.2.0
-      react-draggable: 4.4.5
+      react-draggable: file:../../react-draggable-with-fixed-types.tgz
     dependencies:
       dep: 'link:'
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-draggable: 4.4.5_biqbaboplfbrettd7655fr4n2y
+      react-draggable: file:react-draggable-with-fixed-types.tgz_biqbaboplfbrettd7655fr4n2y
     devDependencies:
       '@types/react': 18.0.26
 
@@ -115,18 +115,6 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /react-draggable/4.4.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==}
-    peerDependencies:
-      react: '>= 16.3.0'
-      react-dom: '>= 16.3.0'
-    dependencies:
-      clsx: 1.2.1
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: false
-
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
@@ -149,3 +137,18 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
+
+  file:react-draggable-with-fixed-types.tgz_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-VE+E5J35STq7vCpf+UC2hUK0xuklbH6/GLw265VPQZ/yXw8gFA8HT1rQ8JUuxQ8K+kj+0xwfNSqKW21HwY/w7A==, tarball: file:react-draggable-with-fixed-types.tgz}
+    id: file:react-draggable-with-fixed-types.tgz
+    name: react-draggable
+    version: 4.4.5
+    peerDependencies:
+      react: '>= 16.3.0'
+      react-dom: '>= 16.3.0'
+    dependencies:
+      clsx: 1.2.1
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false

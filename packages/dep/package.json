@@ -10,7 +10,7 @@
     "dep": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-draggable": "4.4.5"
+    "react-draggable": "file:../../react-draggable-with-fixed-types.tgz"
   },
   "devDependencies": {
     "@types/react": "18.0.26"

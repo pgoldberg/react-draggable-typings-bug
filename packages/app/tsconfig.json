@@ -1,0 +1,19 @@
+{
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "jsx": "react",
+    "lib": ["DOM", "DOM.Iterable", "ES2019", "es2021.weakref"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2019"
+  }
+}
